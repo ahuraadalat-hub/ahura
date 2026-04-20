@@ -65,7 +65,7 @@ export default function FeaturesSection() {
               className="p-6 rounded-2xl bg-[#141414] border border-[#2a2a2a] hover:border-[#3a3a3a] transition-colors group"
             >
               <div className="w-11 h-11 rounded-xl bg-[#2563eb]/10 flex items-center justify-center mb-4 group-hover:bg-[#2563eb]/20 transition-colors">
-                <feature.icon className="w-5 h-5 text-[#38bdf8]" />
+                <feature.icon className="w-5 h-5 text-[#2563eb]" />
               </div>
               <h3 className="text-base font-semibold text-white mb-2">
                 {feature.title}
