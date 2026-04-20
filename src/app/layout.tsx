@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ProfileAI - Dating Profile Photo Generator",
+  title: "Ahura Studio",
   description:
-    "Generate stunning dating profile photos with AI. Take a selfie and get 6 professional-quality photos for Tinder and Hinge.",
+    "Ahura Studio designs and builds modern, high-performance websites for businesses and products.",
   icons: { icon: "/favicon.ico" },
 };
 
