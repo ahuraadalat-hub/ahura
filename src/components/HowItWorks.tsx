@@ -58,7 +58,7 @@ export default function HowItWorks() {
               transition={{ delay: i * 0.15 }}
               className="relative group"
             >
-              <div className="p-6 rounded-2xl bg-[#181818] border border-[#2a2a2a] hover:border-[#e50914]/30 transition-all duration-300">
+              <div className="p-6 rounded-2xl bg-[#181818] border border-[#2a2a2a] hover:border-[#2563eb]/30 transition-all duration-300">
                 {/* Step number */}
                 <div className="absolute -top-3 -left-1 w-7 h-7 rounded-full bg-[#2563eb] flex items-center justify-center text-xs font-bold text-white">
                   {i + 1}
