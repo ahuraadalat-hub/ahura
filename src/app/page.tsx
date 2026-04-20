@@ -15,13 +15,13 @@ export default function Home() {
         <div className="mt-10 flex flex-col gap-4 sm:flex-row">
           <a
             href="#contact"
-            className="rounded-xl bg-[#e50914] px-6 py-3 text-center font-semibold text-white hover:bg-[#f6121d]"
+            className="rounded-xl bg-[#e50914] px-6 py-3 text-center font-semibold text-white hover:bg-[#f6121d] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#e50914]"
           >
             Start a Project
           </a>
           <a
             href="#services"
-            className="rounded-xl border border-[#2a2a2a] bg-[#141414] px-6 py-3 text-center font-semibold text-white hover:bg-[#1c1c1c]"
+            className="rounded-xl border border-[#2a2a2a] bg-[#141414] px-6 py-3 text-center font-semibold text-white hover:bg-[#1c1c1c] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             View Services
           </a>
@@ -67,7 +67,7 @@ export default function Home() {
           </p>
           <a
             href="mailto:hello@ahura.studio"
-            className="mt-8 inline-flex rounded-xl bg-white px-6 py-3 font-semibold text-black hover:bg-[#e6e6e6]"
+            className="mt-8 inline-flex rounded-xl bg-white px-6 py-3 font-semibold text-black hover:bg-[#e6e6e6] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
           >
             hello@ahura.studio
           </a>
