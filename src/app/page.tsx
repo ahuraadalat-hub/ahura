@@ -61,9 +61,9 @@ export default function Home() {
 
       <section id="contact" className="border-t border-[#2a2a2a] bg-[#111111]">
         <div className="mx-auto max-w-6xl px-6 py-16">
-          <h2 className="text-2xl font-bold sm:text-3xl">Let&apos;s build your website</h2>
+          <h2 className="text-2xl font-bold sm:text-3xl">Let’s build your website</h2>
           <p className="mt-4 max-w-xl text-[#b3b3b3]">
-            Tell us what you need and we&apos;ll send a tailored proposal.
+            Tell us what you need and we’ll send a tailored proposal.
           </p>
           <a
             href="mailto:hello@ahura.studio"
