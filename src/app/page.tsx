@@ -46,11 +46,11 @@ export default function Home() {
           <div className="grid sm:grid-cols-3 gap-4">
             <div className="rounded-xl border border-[#334155] bg-[#111827] p-5">
               <p className="text-sm text-[#94a3b8]">Phone</p>
-              <p className="text-white font-semibold">1300 000 000</p>
+              <p className="text-white font-semibold">Add your official support number</p>
             </div>
             <div className="rounded-xl border border-[#334155] bg-[#111827] p-5">
               <p className="text-sm text-[#94a3b8]">Email</p>
-              <p className="text-white font-semibold">support@ahura.com.au</p>
+              <p className="text-white font-semibold">Add your official support email</p>
             </div>
             <div className="rounded-xl border border-[#334155] bg-[#111827] p-5">
               <p className="text-sm text-[#94a3b8]">Hours</p>
