@@ -32,6 +32,17 @@ export default function Navbar() {
               Contact Us
             </Link>
           </div>
+          <div className="flex md:hidden items-center gap-3">
+            <Link href="#services" className="text-xs text-[#cbd5e1] hover:text-white transition-colors">
+              Services
+            </Link>
+            <Link
+              href="#contact"
+              className="text-xs px-3 py-1.5 rounded-md bg-[#2563eb] hover:bg-[#1d4ed8] text-white font-medium transition-colors"
+            >
+              Contact
+            </Link>
+          </div>
         </div>
       </div>
     </nav>
