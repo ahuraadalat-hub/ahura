@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "ProfileAI - Dating Profile Photo Generator",
+  title: "Ahura NDIS Support Services",
   description:
-    "Generate stunning dating profile photos with AI. Take a selfie and get 6 professional-quality photos for Tinder and Hinge.",
+    "Ahura delivers person-centred NDIS support services, from daily living assistance to community participation and plan guidance.",
   icons: { icon: "/favicon.ico" },
 };
 
@@ -13,7 +13,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: "#0a0a0a",
+  themeColor: "#0f172a",
 };
 
 export default function RootLayout({

@@ -6,33 +6,33 @@ import { Camera, Brain, ImageIcon, Download } from "lucide-react";
 const steps = [
   {
     icon: Camera,
-    title: "Take a Selfie",
-    description: "Snap a quick selfie using your camera. Just one photo is all we need.",
-    color: "#e50914",
+    title: "Discovery Call",
+    description: "Tell us about your goals, support needs, and current NDIS plan.",
+    color: "#2563eb",
   },
   {
     icon: Brain,
-    title: "AI Analysis",
-    description: "Gemini Pro analyzes your features and crafts 6 unique photo scenarios.",
-    color: "#ff6b6b",
+    title: "Personal Support Plan",
+    description: "We design a practical weekly support schedule around your preferences.",
+    color: "#38bdf8",
   },
   {
     icon: ImageIcon,
-    title: "Photo Generation",
-    description: "Nano Banana Pro generates stunning, professional-quality dating photos.",
-    color: "#e50914",
+    title: "Service Commencement",
+    description: "Our qualified team starts delivering supports at home and in the community.",
+    color: "#2563eb",
   },
   {
     icon: Download,
-    title: "Download & Use",
-    description: "Pick your favorites and upload them directly to Tinder or Hinge.",
-    color: "#ff6b6b",
+    title: "Ongoing Reviews",
+    description: "We track outcomes and adjust supports as your goals evolve.",
+    color: "#38bdf8",
   },
 ];
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-24 px-6">
+    <section id="process" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -41,10 +41,10 @@ export default function HowItWorks() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-5xl font-bold text-white mb-4">
-            How It Works
+            How We Work With You
           </h2>
           <p className="text-[#808080] text-lg max-w-xl mx-auto">
-            From selfie to dating profile in four simple steps
+            A simple four-step process built around your NDIS goals
           </p>
         </motion.div>
 
@@ -60,7 +60,7 @@ export default function HowItWorks() {
             >
               <div className="p-6 rounded-2xl bg-[#181818] border border-[#2a2a2a] hover:border-[#e50914]/30 transition-all duration-300">
                 {/* Step number */}
-                <div className="absolute -top-3 -left-1 w-7 h-7 rounded-full bg-[#e50914] flex items-center justify-center text-xs font-bold text-white">
+                <div className="absolute -top-3 -left-1 w-7 h-7 rounded-full bg-[#2563eb] flex items-center justify-center text-xs font-bold text-white">
                   {i + 1}
                 </div>
 

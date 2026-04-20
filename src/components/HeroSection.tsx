@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Camera, Sparkles, Zap, ArrowRight } from "lucide-react";
+import { ArrowRight, HeartHandshake, Sparkles } from "lucide-react";
 
 export default function HeroSection() {
   return (
@@ -18,9 +18,9 @@ export default function HeroSection() {
         />
       </div>
 
-      {/* Red glow orbs */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#e50914] rounded-full opacity-[0.04] blur-[120px]" />
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#ff6b6b] rounded-full opacity-[0.03] blur-[120px]" />
+      {/* Blue glow orbs */}
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-[#2563eb] rounded-full opacity-[0.07] blur-[120px]" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-[#38bdf8] rounded-full opacity-[0.06] blur-[120px]" />
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <motion.div
@@ -33,53 +33,53 @@ export default function HeroSection() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#e50914]/10 border border-[#e50914]/20 mb-8"
-          >
-            <Sparkles className="w-4 h-4 text-[#e50914]" />
-            <span className="text-sm text-[#e50914] font-medium">
-              Powered by Nano Banana Pro AI
-            </span>
-          </motion.div>
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#2563eb]/10 border border-[#2563eb]/30 mb-8"
+            >
+              <Sparkles className="w-4 h-4 text-[#38bdf8]" />
+              <span className="text-sm text-[#38bdf8] font-medium">
+                Registered & Person-Centred NDIS Support
+              </span>
+            </motion.div>
 
           {/* Main title */}
           <h1 className="text-5xl sm:text-7xl font-extrabold tracking-tight mb-6">
-            <span className="text-white">Your Perfect</span>
-            <br />
-            <span className="bg-gradient-to-r from-[#e50914] to-[#ff6b6b] bg-clip-text text-transparent">
-              Dating Profile
-            </span>
-            <br />
-            <span className="text-white">In Seconds</span>
-          </h1>
+              <span className="text-white">Compassionate</span>
+              <br />
+              <span className="bg-gradient-to-r from-[#2563eb] to-[#38bdf8] bg-clip-text text-transparent">
+                NDIS Support
+              </span>
+              <br />
+              <span className="text-white">for Everyday Life</span>
+            </h1>
 
           {/* Subtitle */}
           <p className="text-lg sm:text-xl text-[#808080] max-w-2xl mx-auto mb-10 leading-relaxed">
-            Take one selfie. Our AI analyzes your features and generates{" "}
-            <span className="text-white font-medium">6 stunning profile photos</span>{" "}
-            tailored for Tinder & Hinge. No photoshoot needed.
+            We help participants and families navigate the NDIS with confidence through{" "}
+            <span className="text-white font-medium">reliable in-home, community, and plan support</span>{" "}
+            tailored to individual goals.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link href="/generate">
+            <Link href="#services">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
-                className="group flex items-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-[#e50914] to-[#c11119] text-white font-semibold text-lg shadow-lg shadow-[#e50914]/25 hover:shadow-[#e50914]/40 transition-shadow"
+                className="group flex items-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-[#2563eb] to-[#1d4ed8] text-white font-semibold text-lg shadow-lg shadow-[#2563eb]/25 hover:shadow-[#2563eb]/40 transition-shadow"
               >
-                <Camera className="w-5 h-5" />
-                Take a Selfie
+                <HeartHandshake className="w-5 h-5" />
+                Explore Services
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </motion.button>
             </Link>
 
-            <Link href="#how-it-works">
+            <Link href="#contact">
               <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.98 }}
                 className="flex items-center gap-2 px-8 py-4 rounded-xl bg-[#181818] border border-[#2a2a2a] text-white font-medium text-lg hover:bg-[#282828] transition-colors"
               >
-                How It Works
+                Speak to Our Team
               </motion.button>
             </Link>
           </div>
@@ -93,9 +93,9 @@ export default function HeroSection() {
           className="mt-20 grid grid-cols-3 gap-8 max-w-lg mx-auto"
         >
           {[
-            { value: "6", label: "Photos Generated" },
-            { value: "30s", label: "Average Time" },
-            { value: "AI", label: "Powered Magic" },
+            { value: "24/7", label: "Participant Support" },
+            { value: "1:1", label: "Goal Planning" },
+            { value: "Local", label: "Community Team" },
           ].map((stat, i) => (
             <div key={i} className="text-center">
               <div className="text-2xl sm:text-3xl font-bold text-white">

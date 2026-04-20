@@ -6,39 +6,39 @@ import { Shield, Zap, Palette, Target, Smartphone, Globe } from "lucide-react";
 const features = [
   {
     icon: Zap,
-    title: "Lightning Fast",
-    description: "6 professional photos generated in under 60 seconds.",
+    title: "Daily Living Support",
+    description: "Assistance with routines, personal care, and independent living skills.",
   },
   {
     icon: Target,
-    title: "Platform Optimized",
-    description: "Photos tailored specifically for Tinder and Hinge algorithms.",
+    title: "Community Participation",
+    description: "Build confidence and stay connected through social and community activities.",
   },
   {
     icon: Palette,
-    title: "Diverse Scenes",
-    description: "Travel, social, dressy, candid - a full range for your profile.",
+    title: "Capacity Building",
+    description: "Support designed to develop life skills and long-term independence.",
   },
   {
     icon: Shield,
-    title: "Privacy First",
-    description: "Your selfie is processed securely and never shared.",
+    title: "Safe & Respectful Care",
+    description: "A trusted team focused on dignity, safeguarding, and consistent quality.",
   },
   {
     icon: Smartphone,
-    title: "Mobile Ready",
-    description: "Perfect 4:3 portrait ratio for dating app profiles.",
+    title: "Flexible Scheduling",
+    description: "Support sessions arranged around your preferred routines and availability.",
   },
   {
     icon: Globe,
-    title: "AI Powered",
-    description: "Gemini Pro + Nano Banana Pro for stunning, realistic results.",
+    title: "Plan Coordination Guidance",
+    description: "Help understanding funding categories, service bookings, and plan reviews.",
   },
 ];
 
 export default function FeaturesSection() {
   return (
-    <section className="py-24 px-6 bg-[#0a0a0a]">
+    <section id="services" className="py-24 px-6 bg-[#0a0a0a]">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -47,10 +47,10 @@ export default function FeaturesSection() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl sm:text-5xl font-bold text-white mb-4">
-            Why ProfileAI?
+            NDIS Services We Offer
           </h2>
           <p className="text-[#808080] text-lg max-w-xl mx-auto">
-            Everything you need for the perfect dating profile
+            Practical, participant-focused supports delivered by a caring local team
           </p>
         </motion.div>
 
@@ -64,8 +64,8 @@ export default function FeaturesSection() {
               transition={{ delay: i * 0.1 }}
               className="p-6 rounded-2xl bg-[#141414] border border-[#2a2a2a] hover:border-[#3a3a3a] transition-colors group"
             >
-              <div className="w-11 h-11 rounded-xl bg-[#e50914]/10 flex items-center justify-center mb-4 group-hover:bg-[#e50914]/20 transition-colors">
-                <feature.icon className="w-5 h-5 text-[#e50914]" />
+              <div className="w-11 h-11 rounded-xl bg-[#2563eb]/10 flex items-center justify-center mb-4 group-hover:bg-[#2563eb]/20 transition-colors">
+                <feature.icon className="w-5 h-5 text-[#38bdf8]" />
               </div>
               <h3 className="text-base font-semibold text-white mb-2">
                 {feature.title}
