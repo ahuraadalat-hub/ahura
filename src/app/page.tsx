@@ -1,3 +1,21 @@
+const services = [
+  {
+    title: "Marketing Websites",
+    description:
+      "High-converting pages with clear messaging and strong visual polish.",
+  },
+  {
+    title: "Product Sites",
+    description:
+      "Documentation, pricing, and onboarding experiences for software products.",
+  },
+  {
+    title: "Content Platforms",
+    description:
+      "Scalable blog and resource hubs optimized for speed and SEO.",
+  },
+];
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#0a0a0a] text-[#e5e5e5]">
@@ -31,23 +49,7 @@ export default function Home() {
       <section id="services" className="mx-auto max-w-6xl px-6 pb-20">
         <h2 className="text-2xl font-bold sm:text-3xl">What we build</h2>
         <div className="mt-8 grid gap-4 sm:grid-cols-3">
-          {[
-            {
-              title: "Marketing Websites",
-              description:
-                "High-converting pages with clear messaging and strong visual polish.",
-            },
-            {
-              title: "Product Sites",
-              description:
-                "Documentation, pricing, and onboarding experiences for software products.",
-            },
-            {
-              title: "Content Platforms",
-              description:
-                "Scalable blog and resource hubs optimized for speed and SEO.",
-            },
-          ].map((service) => (
+          {services.map((service) => (
             <article
               key={service.title}
               className="rounded-2xl border border-[#2a2a2a] bg-[#141414] p-6"
