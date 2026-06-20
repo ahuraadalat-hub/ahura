@@ -12,6 +12,21 @@ A working pack of YouTube strategy and ready-to-shoot scripts.
 | [04-seo-metadata-package.md](04-seo-metadata-package.md) | SEO package (titles, description, tags, chapters) for the faceless-channel reel |
 | [05-ai-productivity-subseries.md](05-ai-productivity-subseries.md) | Sub-series plan: AI productivity tools for the freelancer-finance channel |
 | [06-script-full-build.md](06-script-full-build.md) | Follow-up script: "The Full Build" of the faceless system |
+| [launch-kit/](launch-kit/) | **Full channel launch kit** — setup, 30-day calendar, first scripts, SEO, growth, monetization |
+
+## 🚀 Launch kit (start here to actually launch)
+
+Channel concept chosen: **Personal Finance for Freelancers** ("The Freelance Ledger"). The `launch-kit/` folder is the executable plan:
+
+| File | What it is |
+|---|---|
+| [00-launch-plan.md](launch-kit/00-launch-plan.md) | Master 90-day roadmap + honest expectations + monetization gates |
+| [01-channel-setup.md](launch-kit/01-channel-setup.md) | Name, branding, About, keywords, channel-trailer script, Day-1 checklist |
+| [02-content-calendar-30-day.md](launch-kit/02-content-calendar-30-day.md) | 30 days of titles, hooks, formats (longs + Shorts) |
+| [03-scripts-batch-1.md](launch-kit/03-scripts-batch-1.md) | First 3 full long-form scripts, ready to shoot |
+| [04-seo-and-thumbnails.md](launch-kit/04-seo-and-thumbnails.md) | Thumbnail specs + reusable SEO/description/tags templates |
+| [05-growth-playbook.md](launch-kit/05-growth-playbook.md) | Getting the first 1,000 subscribers |
+| [06-monetization-roadmap.md](launch-kit/06-monetization-roadmap.md) | The income stack, phase by phase |
 
 ## How to use this pack
 
